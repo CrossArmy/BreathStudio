@@ -26,6 +26,7 @@ h1{
     margin-top: 30px;
 }
 
+
 .ban{
     margin-top:10em;
     text-align: center;
@@ -73,6 +74,19 @@ a:active{
     }
     .banner a{
         padding:3em 0;
+    }
+    .nav-element{
+        padding:1em 0;
+    }
+    .user_form{
+        padding-right: 20%;
+    }
+    .email_form{
+        padding-left: 20%;
+    }
+    .icons .adres{
+        padding:0;
+        margin:0;
     }
 }
 
@@ -163,6 +177,7 @@ a:active{
 .obr1:hover, .obr2:hover, .obr3:hover, .obr4:hover{
     background-color: black;
     opacity: 0.95;
+    color:white;
 }
 
 .team_image{
@@ -212,7 +227,7 @@ a:active{
     margin:0;
 }
 
-.social h2{
+.adres h2{
     font-size: 3em;
     padding:1em;
     color: #AEBFD4;
