@@ -1,0 +1,265 @@
+html{
+    font-size: 100%;
+}
+
+body{
+    text-align: center;
+    font-family: 'Chivo', sans-serif;
+}
+
+/* ============== BANNER ==============*/
+
+.banner{
+    background-image: url("../img/studio.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    height:100vh;
+    margin:0;
+}
+
+h1{
+    font-weight: 900;
+}
+
+.nav{
+    margin-top: 30px;
+}
+
+.ban{
+    margin-top:10em;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.down{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 3em;
+}
+
+.breathe h6{
+    font-size: 1.7em;
+    font-weight: 900;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.7em;
+    color:#fff;
+}
+
+a:hover{
+    text-decoration: none;
+    color:#DCDCDC;
+}
+
+a:active{
+    text-decoration: none;
+    color:#DCDCDC;
+}
+
+@media screen and (max-width: 600px) {
+    .ban,.down{
+        visibility: hidden;
+    }
+    .banner a{
+        padding:3em 0;
+    }
+}
+
+/* ============== PROJEKTY ==============*/
+.projects{
+    height:100vh;
+    margin:0 auto;
+    padding:0;
+}
+.img1,.img2{
+    padding:0;
+}
+.projects .title{
+    height:20vh;
+    background-color: #20252B;
+    color:#AEBFD4;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.projects .title h3{
+    font-size: 3.5em;
+    font-weight: 300;
+    margin: 0;
+}
+.projekt1{
+    height: 40vh;
+    background-image: url("../img/projekt1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.projekt1:hover{
+    background-color: black;
+    opacity: 0.95;
+}
+.projekt2{
+    height: 40vh;
+    background-image: url("../img/projekt2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.projekt2:hover{
+    background-color: black;
+    opacity: 0.95;
+}
+.projekt3{
+    height:80vh;
+    background-image: url("../img/projekt3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.projekt3:hover{
+    background-color: black;
+    opacity: 0.95;
+}
+.project_image{
+    padding:0;
+}
+
+.project_image h3{
+    margin:0;
+    padding:1em;
+    color:white;
+}
+
+.project_image p{
+    color:white;
+    padding:0 2em;
+    font-size:1em;
+}
+
+/* ============== TEAM ==============*/
+.team{
+    margin:0 auto;
+    padding:0;
+    margin:0 auto;
+}
+.team1,.team2{
+    padding:0;
+}
+.obr1,.obr2,.obr3,.obr4{
+    height: 50vh;
+    background-image: url("../img/face.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.obr1:hover, .obr2:hover, .obr3:hover, .obr4:hover{
+    background-color: black;
+    opacity: 0.95;
+}
+
+.team_image{
+    padding:0;
+}
+.team .title{
+    height:20vh;
+    background-color: #20252B;
+    color:#AEBFD4;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.team .title h3{
+    font-size: 3.5em;
+    font-weight: 300;
+    margin:0;
+}
+
+.team h3{
+    margin:0;
+    padding:1em;
+}
+
+/* ============== SOCIAL ==============*/
+.social, .footer{
+    background-color: #20252B;
+    margin:0;
+    padding:0;
+}
+
+.social .title{
+    height:20vh;
+    background-color: #20252B;
+    color:#AEBFD4;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-bottom: 1px solid #AEBFD4;
+}
+
+.social .title h3{
+    font-size: 3.5em;
+    font-weight: 300;
+    margin:0;
+}
+
+.social h2{
+    font-size: 3em;
+    padding:1em;
+    color: #AEBFD4;
+}
+
+.social .social_icons{
+    padding:0.2em;
+}
+.footer{
+    color:#AEBFD4;
+    border-top: 1px solid white;
+}
+
+.footer h6{
+    margin-top: 1em;
+    color:#AEBFD4;
+}
+
+.icons{
+    padding-bottom: 1em;
+}
+
+.icons_link i:hover{
+    color:white;
+}
+
+.user_form{
+    padding-left: 20%;
+}
+.email_form{
+    padding-right: 20%;
+}
+.message_form{
+    padding:0 20%;
+}
+#message{
+    height:6em;
+}
+.button_class{
+    margin-top: 2em;
+}
+.btn_wyslij{
+    border-radius: 2em;
+    width:13em;
+    height:4em;
+    font-size: 1.2em;
+}
+.formularz{
+    padding-top: 1.6em;
+}
